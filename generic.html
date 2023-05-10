@@ -42,6 +42,44 @@
 						<p>All code can be found on my GitHub :)
 						</p>
 					</header>
+					<div class = "box">
+						<h3><a href = "https://github.com/JoseAUrrea/canny"> Canny Edge Detector</a></h3>
+						<div id="slideshow-container" class = "slideshow-container">
+							<div class="mySlides fade">
+							  <img src="images/cannypt1.jpg" style="width:100%">
+							  <div class="caption">Part One</div>
+							</div>
+						  
+							<div class="mySlides fade">
+							  <img src="images/cannypt2.jpg" style="width:100%">
+							  <div class="caption">Part Two</div>
+							</div>
+						  
+							<div class="mySlides fade">
+							  <img src="images/cannypt3.jpg" style="width:100%">
+							  <div class="caption">Part Three</div>
+							</div>
+
+							<a class = "prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class = "next" onclick="plusSlides(+1)">&#10095;</a>
+						  </div>
+						  <div style = "text-align:center">
+							<span class = "dot" onclick = "currentSlide(1)"></span>
+							<span class = "dot" onclick = "currentSlide(2)"></span>
+							<span class = "dot" onclick = "currentSlide(3)"></span>
+						  </div>
+
+						  <script src="assets/js/slideshow.js"></script>
+						  </script>
+						</body>
+							<h4>C</h4><br>
+							<p>
+							Given an input image, the program takes the image through 3 parts. 
+							Part 1 gets the derivatives for the x and y mask respectively then computes the convolutions. Finally the magnitude is calculated and an output image is produced.
+							Part 2 detects the peaks in the image using a double for loop that checks certain conditions to determine if a pixel is a peak. The output image with the peaks is produced.
+							Part 3 is a post processing step where certain features are selected in the image that meet criteria based on gradient magnitudes and connectivity. The final output image is produced.
+							</p>
+					</div>
 					<div class="box">
 						<h3><a href="https://github.com/JoseAUrrea/ToDoList">To-Do List</a></h3>
 						<img src="images/ToDoList.jpg" width ="700" height = "325" alt="" /></span>
@@ -58,7 +96,7 @@
 								<img src="images/DigClock.jpg" width ="600" height = "125" alt="" /></span>
 								<p>
 									<h4>Python and tkinter</h4><br> 
-									A GUI digital clock that represents real and  accuarate time. 
+									A GUI digital clock that represents real and  accurate time. 
 								</p>
 					</div>
 					<div class = "box">
