@@ -3163,14 +3163,29 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
+		/*background-image: url("images/overlay.png"), url("../../images/banner.jpg");*/
+		background-image: url("images/overlay.png"), url("../../images/front.jpg");
+		background-position: left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
+		background-size: 135% auto;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
+	
+
+	/*
+	.banner-content {
+		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		width: 50%;
+		background-position: top left,						center center;
+		display: inline-block;
+		padding: 20px;
+		border-radius: 25px;
+		align-items: center;
+		
+	}*/
 
 		#banner :last-child {
 			margin-bottom: 0;
