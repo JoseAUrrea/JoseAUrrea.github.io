@@ -3164,11 +3164,11 @@
 		background-attachment: scroll,							fixed;
 		background-color: #666;
 		/*background-image: url("images/overlay.png"), url("../../images/banner.jpg");*/
-		background-image: url("images/overlay.png"), url("../../images/front.jpg");
+		background-image: url("../../images/front2.jpg");
 		background-position: left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
-		background-size: 135% auto;
+		background-size: 130% auto;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
